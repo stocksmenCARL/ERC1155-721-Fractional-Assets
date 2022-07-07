@@ -63,7 +63,7 @@ constructor(
         investedAsset[_id] = true; 
     }
     //
-    // @dev: Mint function for only BRAQFRND holders.
+    // @dev: Mint function for only OBYC holders.
     //
     function mint(uint256 _id, uint256 amount) public payable {
         require(!investingAssetsLocked, "The assets are locked and no more can be minted"); 
